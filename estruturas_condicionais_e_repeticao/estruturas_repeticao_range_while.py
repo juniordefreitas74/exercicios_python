@@ -5,7 +5,6 @@ for tabuada in range( 0 , 60 , 2):
     # while (repita até...)
     
     sair = -1
-    
 while sair !=0:
     sair = int(input('\nDigite a opção desejada:\n[1] sacar \n[2] extrato \n[0] sair \n: '))
     
@@ -13,7 +12,10 @@ while sair !=0:
         print(' sacando...')
     elif sair == 2 :
         print('exibindo extrato...')
-    elif sair >= 3:
+    elif sair >= 3 or sair < 0: 
         print('ERRO digite opçao valida')
+    
+    
+    
 else:
     print ('obrigado por tudo')
