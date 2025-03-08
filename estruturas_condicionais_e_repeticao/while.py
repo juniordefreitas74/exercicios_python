@@ -39,3 +39,11 @@ while i <5: #enquanto i for menor que 5
     # depois ele imprime o item da lista vogais referente a posição i
     # quando acrescenta 1 ele incrementa e faz a mesma coisa o numero de vezes colocado no while
     i +=1
+
+print('====================WHILE===========================')
+idade = 0
+while idade < 60:
+    print(idade, end=(''))
+    idade +=1
+else:
+    print('\nVOCÊ É UMA PESSOA IDOSA')
