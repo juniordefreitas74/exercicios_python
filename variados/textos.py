@@ -6,8 +6,8 @@ print ('O lucro foi de', lucro, ' e o faturamento foi de', faturamento)
 texto = f'O lucro foi de R$ {lucro}  e o faturamento foi de R$ {faturamento}'
 print (texto)
 
-email = 'eMaIl_falso@gmail.com '
 
+email = 'eMaIl_falso@gmail.com '
 
 
 print(email.lower()) # letra minuscula
