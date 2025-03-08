@@ -14,7 +14,7 @@ while a < 10: # repita 'a' enquanto for menor que 10
 print('====================================================')
     
 vogais = ['a','e','i','o','u']
-
+familia = ['Michelle', "Junior", 'Lara']
     
 print (vogais[:])
 
@@ -24,7 +24,7 @@ for letras in vogais: #coloque em letras cada item da lista vogais
     
     
 print('====================FOR=============================')
-for indice, item in enumerate (vogais): #coloque em letras cada item da lista vogais e mostre a posição
+for indice, item in enumerate (vogais): #coloque em indice  cada item da lista vogais e mostre a posição
     print(indice,item)
 
 print('====================FOR===========================')
@@ -47,3 +47,16 @@ while idade < 60:
     idade +=1
 else:
     print('\nVOCÊ É UMA PESSOA IDOSA')
+print('====================for===========================')
+print('====================for===========================')
+
+for Freitas in familia:
+    print(Freitas ,end=(' - \n'))
+    
+    
+print('====================for===========================')
+print('====================for===========================')
+
+minha_lista = ['a', 'b', 'c']
+for indice, valor in enumerate(minha_lista): #coloque em indice  cada item da lista vogais e mostre a posição
+    print(f"O elemento no índice {indice} é {valor}")
