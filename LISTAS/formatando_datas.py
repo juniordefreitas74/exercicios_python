@@ -11,7 +11,7 @@ mascara_ptbr = '%A %d/%h/%Y %H:%M ' #criei uma variavel com o formato da mascara
 mascara_en = '%Y-%m-%d %H:%M'
 print(data_atual.strftime(mascara_ptbr))
 
-data_convertida = datetime.strptime(data_string, mascara_en)
+data_convertida = datetime.strptime(data_string, mascara_en) # aqui converte string em data
 print(data_convertida)
 
 
