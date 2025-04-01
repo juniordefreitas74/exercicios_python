@@ -1,4 +1,4 @@
-def calculadora():
+*def calculadora():
     entrada1 = int(input('Digite um número: '))
     operacao = (input('Escolha uma operação (+ - * /): '))
     entrada2 = int(input('Digite um número: '))
