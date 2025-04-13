@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: processamento-de-imagens
+Version: 0.0.1
+Summary: Pacote para processamento de imagens
+Home-page: https://github.com/juniordefreitas74/processamento_imagens.git
+Author: Junior de Freitas
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# processamento_de_imagens
+
+Descrição.
+O pacote de processamento de imagens é usado para:
+    Processamento:
+        - Correspondência de Histograma
+        - Similaridade de estrutura
+        - Redimensionar Imagem
+    Utilidades:
+        - Ler Imagem
+        - Salvar imagem
+        - Exibir Imagem
+        - Exibir resultado
+        - Exibir histrograma
+## Instalação
+
+Use o Gerenciador de Pacotes [pip](https://pip.pypa.io/en/estable/) para instalar o 'nome do pacote'
+
+---
+    bash
+pip install processamento_de_imagens
+
+## Autor
+Junior de Freitas
+
+## Licensa
+

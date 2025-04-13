@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as f:  # lê o arquivo README.md
+with open("README.md", "r", encoding="utf-8") as f:  # lê o arquivo README.md
     page_description = f.read()  # lê o conteúdo do arquivo README.md
 
 with open("requerimentos.txt") as f:
