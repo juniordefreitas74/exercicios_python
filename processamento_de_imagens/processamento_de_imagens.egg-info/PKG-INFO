@@ -1,11 +1,21 @@
-Metadata-Version: 2.1
-Name: processamento-de-imagens
+Metadata-Version: 2.4
+Name: processamento_de_imagens
 Version: 0.0.1
 Summary: Pacote para processamento de imagens
 Home-page: https://github.com/juniordefreitas74/processamento_imagens.git
 Author: Junior de Freitas
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image>=0.16.1
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
 # processamento_de_imagens
 
